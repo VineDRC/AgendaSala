@@ -1,0 +1,102 @@
+body{
+    background-color: powderblue;
+}
+#FundoAgenda{
+    border-radius: 5px;
+    background-color: white; 
+    margin-top: 25px; 
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 25px;
+}
+#Botao{
+    padding-top: 25px;
+    text-align: center;
+}
+#BtnCabecalho{
+    text-align: right;
+}
+#BtnCadastro{
+    border-radius: 5px;
+    margin-right: 25px;
+}
+#Ahref{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.subtitle{
+    text-align: Center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.titleproducts{
+    text-transform: uppercase;
+    margin:2% 2% 2% 2%;
+}
+#NomeProduto{
+    padding-left: 15px;
+}
+.negrito{
+    font-weight: bold;
+}
+.products{
+    text-align: center;
+}
+#BtnEnviar{
+    border-radius: 5px;
+    background-color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+}
+#Principal{
+    text-align:center;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+#Nome{
+    padding-top: 2px;
+    text-align: center;
+    font-size: 17px;
+}
+#NomeEdit{
+    margin-left: 6px;
+    width: 250px;
+}
+#Data{
+    padding-top: 2px;
+    text-align: center;
+    font-size: 17px;
+}
+#DataEdit{
+    margin-left: 6px;
+    width: 180px;
+    text-align: center;
+}
+#Horario{
+    padding-top: 2px;
+    font-size: 17px;
+}
+#HorarioEdit{
+    margin-left: 6px;
+    width: 100px;
+    text-align: center;
+}
+#Sala{
+    padding-top: 2px;
+    text-align: center;
+    font-size: 17px;
+}
+#SalaEdit{
+    margin-left: 6px;
+    width: 250px;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 17px;
+}
