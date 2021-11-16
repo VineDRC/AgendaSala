@@ -19,7 +19,7 @@
     <div id="FundoAgenda">
         <h1 id="Principal">Agenda de Reunião</h1>
         <h1>Por favor insira o seu Nome, Sala, Data e qual Horário queres agendar.</h1>
-        <form method="POST" action="salva_mensagem.php">
+        <form method="POST" action="./salva_mensagem.php">
             <h1 id="Nome">Insira o seu Nome : <input type="text" name="Nome" id="NomeEdit" maxlength="50" placeholder="Digite o seu Nome Completo..." required></h1>
             <h1 id="Sala">Insira o Nome da Sala : <input type="text" name="Sala" id="SalaEdit" placeholder="Ex : Sala de Reunião..." required></h1>
             <h1 id="Data">Insira a Data : <input type="date" name="Data" id="DataEdit">
