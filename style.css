@@ -9,6 +9,26 @@ body{
     margin-right: 300px;
     padding-bottom: 25px;
 }
+#cabecalho{
+    padding-left: 5px;
+}
+#FiltroData{
+    padding-left: 0px;
+}
+#FiltroEdit{
+    width: 150px;
+    margin-left: 15px;
+}
+#Filtro{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 10px;
+}
+#FiltrarDataBTN{
+    width: 80px;
+}
 #Botao{
     padding-top: 25px;
     text-align: center;
@@ -24,7 +44,7 @@ body{
     padding-top: 20px;
     font-size: 15px;
 }
-.subtitle{
+#subtitle{
     text-align: Center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;

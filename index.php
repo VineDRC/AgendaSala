@@ -7,9 +7,15 @@ $con = $mysqli->query($dados) or die($mysqli->error);
 ?>
 <link rel="stylesheet" href="style.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-<p class="subtitle">Salas Agendada</p>
-<div id="BtnCabecalho">
-<a href="cadastro.php"><button id="BtnCadastro">Cadastro</button></a>
+<div id="subtitle">Salas Agendada</div>
+<div id="cabecalho">
+    <div id="FiltroData">
+        <h1 id="Filtro">Filtrar<input type="date" placeholder="Filtrar Data" name="Filtro" id="FiltroEdit"></h1>
+        <input type="submit" value="Filtrar" onclick="FiltroData()" id="FiltrarDataBTN">
+    </div>
+    <div id="BtnCabecalho">
+        <a href="cadastro.php"><button id="BtnCadastro">Cadastro</button></a>
+    </div>
 </div>
 <hr>
 <div class="titleproducts">
@@ -30,20 +36,20 @@ $con = $mysqli->query($dados) or die($mysqli->error);
                     <td><?php echo $dado['data']; ?></td>
                     <td><?php echo $dado['horario']; ?></td>
                     <td><a href="excluir.php?id=<?= $dado['id']; ?>">Excluir</a></td>
-                    <!--<td><form action="" method="post"><input type="submit" href="excluir.php" value="Excluir" name="excluir"<?= $dado['id']?>></form>
+                    <!--<td><form action="" method="post"><input type="submit" href="excluir.php" value="Excluir" name="excluir"<?= $dado['id'] ?>></form>
                         <?php
-                           // if(isset($_POST["excluir"])){
-                                 // $id = $dado['id'];
-                                  //echo ($id);
-                                  //$deletar = "DELETE FROM agenda_sala WHERE id='$id'";
-                                  //$con = $mysqli->query($deletar) or die($mysqli->error);
-                                 // header("Refresh:3");
-                           // }
-                            //require("conexao.php");
-                            //$string = implode("",$dado['id']);
-                            //echo($string);
-                            //$deletar = "DELETE agenda_sala FROM WHERE id=$string";
-                            //header('cadastro.php')
+                        // if(isset($_POST["excluir"])){
+                        // $id = $dado['id'];
+                        //echo ($id);
+                        //$deletar = "DELETE FROM agenda_sala WHERE id='$id'";
+                        //$con = $mysqli->query($deletar) or die($mysqli->error);
+                        // header("Refresh:3");
+                        // }
+                        //require("conexao.php");
+                        //$string = implode("",$dado['id']);
+                        //echo($string);
+                        //$deletar = "DELETE agenda_sala FROM WHERE id=$string";
+                        //header('cadastro.php')
                         ?>
                     </td> -->
                 </tr>
